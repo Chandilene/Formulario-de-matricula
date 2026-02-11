@@ -9,7 +9,7 @@ main {
   overflow: auto;
   padding: 4rem;
 
-  .mai-container {
+  .main-container {
     max-width: 33rem;
     margin-left: auto;
   }
@@ -30,6 +30,7 @@ main {
 aside {
   background-color: var(--surface-secondary);
   padding: 4rem;
+
 
   .aside-container {
     max-width: 31rem;
