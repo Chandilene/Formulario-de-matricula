@@ -28,8 +28,8 @@ label+.radio-wrapper {
         inset: 0;
     }
 
-    .radio-image {
-        background-image: url(../../assets/icons/radio-default.svg);
+    .radio-img {
+        background-image: url(../../assets/icones/radio-default.svg);
 
         width: 1.5rem;
         height: 1.5rem;
@@ -43,16 +43,16 @@ label+.radio-wrapper {
     &:focus-within {
         border: 1px solid var(--stroke-highlight);
 
-        & .radio-image {
-            background-image: url(../../assets/icons/radio-hover.svg);
+        & .radio-img {
+            background-image: url(../../assets/icones/radio-hover.svg);
         }
     }
 
     &:has(:checked) {
         border: 2px solid var(--stroke-highlight);
 
-        & .radio-image {
-            background-image: url(../../assets/icons/radio-checked.svg);
+        & .radio-img {
+            background-image: url(../../assets/icones/radio-selected.svg);
         }
     }
 }
